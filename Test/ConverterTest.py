@@ -2,7 +2,7 @@
 
 import unittest
 
-from Devnagri_Brahmi_Converter import Converter
+from Transliterator.Devnagri_Brahmi_Converter import Converter
 
 
 class ConverterTest(unittest.TestCase):

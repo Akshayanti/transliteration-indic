@@ -1,6 +1,6 @@
 import argparse
-from PaliScraper import PaliScraper
-from PrakritScraper import PrakritScraper
+from Scraper.PaliScraper import PaliScraper
+from Scraper.PrakritScraper import PrakritScraper
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser("Program to scrape Pali and Prakrit files")

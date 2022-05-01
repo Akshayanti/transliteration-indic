@@ -3,7 +3,7 @@
 from bs4 import BeautifulSoup
 import inltk
 
-from Devnagri_Brahmi_Converter import Converter
+from Transliterator.Devnagri_Brahmi_Converter import Converter
 
 
 def open_and_parse(input_doc):
