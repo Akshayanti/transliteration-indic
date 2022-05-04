@@ -20,7 +20,7 @@ def read_file(filename):
             count += 1
             if count % 2 != 0:
                 for x, y in zip(dev.split(), translit.split()):
-                    if y != "xyz" and x not in DEV_TO_TRANSLIT and x != y:
+                    if y != "xyz" and x not in DEV_TO_TRANSLIT and y not in TRANSLIT_TO_DEV and x != y:
                         DEV_TO_TRANSLIT[x] = y
                         TRANSLIT_TO_DEV[y] = x
                 dev = line.strip()
