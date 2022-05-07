@@ -2,6 +2,12 @@ HINDI_WORDS = []
 GLYPH = ['र']
 
 
+# todo: create fnc that filtered words without matra(no matra)
+# todo: create fnc that filter words without halant(no halflings)
+# todo: generate list of words without matras and without halant
+# todo: generate list of words without halant
+
+
 def read_input_file(filename):
     with open(filename, "r", encoding="utf-8") as infile:
         for line in infile:
