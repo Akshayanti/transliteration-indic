@@ -12,7 +12,7 @@ def read_input_file(filename):
 def no_matra():
     for word in HINDI_WORDS:
         if not any([x in word for x in GLYPH]):
-            yield word
+            yield (word)
 
 
 if __name__ == "__main__":
